@@ -1,5 +1,7 @@
 # SyncForge
 
+[![CI](https://github.com/flarvin/sync-forge/actions/workflows/ci.yml/badge.svg)](https://github.com/flarvin/sync-forge/actions/workflows/ci.yml)
+
 SyncForge is a Symfony/Doctrine library for reconciling external datasets (`array`/`iterable`) with an entity table using batched DBAL operations.
 
 > Status: **alpha**, moving toward **v0.1.0-beta.1**.
@@ -7,6 +9,7 @@ SyncForge is a Symfony/Doctrine library for reconciling external datasets (`arra
 > Tracking docs:
 > - [Changelog](./CHANGELOG.md)
 > - [Roadmap](./ROADMAP.md)
+> - [Release Checklist](./RELEASE_CHECKLIST.md)
 > - [Release Template](./.github/RELEASE_TEMPLATE.md)
 
 Typical use case:
